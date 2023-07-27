@@ -35,6 +35,7 @@ builder.Services
         opts.ClientId = config.ClientId;
         opts.ClientSecret = config.ClientSecret;
         opts.CallbackPath = config.CallbackPath;
+        opts.SignedOutCallbackPath = config.SignedOutCallbackPath;
         
         opts.ResponseType = OpenIdConnectResponseType.Code;
         opts.ResponseMode = OpenIdConnectResponseMode.FormPost;
